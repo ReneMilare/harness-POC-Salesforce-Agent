@@ -1,0 +1,11 @@
+services:
+  agente-vps:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./docs:/app/docs:ro
+      - ./keys:/app/keys:ro
+    restart: unless-stopped

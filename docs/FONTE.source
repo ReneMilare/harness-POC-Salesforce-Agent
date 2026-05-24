@@ -1,0 +1,14 @@
+# Fonte
+
+Texto extraído de PDF aberto com a obra "Apologia de Sócrates", de Platão, tradução de Maria Lacerda de Souza.
+
+Fonte baixada:
+https://www.netmundi.org/home/wp-content/uploads/2020/10/Apologia-de-Socrates-de-Platao.pdf
+
+Referência da mesma tradução no portal Domínio Público:
+http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action=&co_obra=2296
+
+URL de download direto referenciada para o Domínio Público, embora tenha retornado HTTP 403 via curl neste ambiente:
+http://www.dominiopublico.gov.br/download/texto/cv000065.pdf
+
+Extração local feita com `pdftotext -layout -enc UTF-8`.
